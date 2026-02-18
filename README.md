@@ -6,7 +6,7 @@ distilESM-2-AMP is a  distilled version of META AI's `esm2_t6_8M_UR50D`. The res
 
 <!-- - Full Paper: [distilESM-2-AMP: Effective LLM Distillation for AMPs]() -->
 
-- Model on Hugging Face: [NakornB/distilESM-2-AMP](NakornB/distilESM-2-AMP)
+- Model on Hugging Face: [NakornB/distilESM-2-AMP](https://huggingface.co/NakornB/distilESM-2-AMP)
 
 - Live Demo: Check out [demo](https://distilesm-2-amp.streamlit.app/) here
 
