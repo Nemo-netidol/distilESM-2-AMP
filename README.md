@@ -1,4 +1,4 @@
-<h1 align="center">distilESM-2-AMP</h1>
+<h1 align="center">🧬 distilESM-2-AMP</h1>
 
 distilESM-2-AMP is a  distilled version of META AI's `esm2_t6_8M_UR50D`. The research focuses on model compression and classification of Antimicrobial Peptide (AMP) in bioinformatics field.
 ### Paper & Resources
@@ -10,13 +10,13 @@ distilESM-2-AMP is a  distilled version of META AI's `esm2_t6_8M_UR50D`. The res
 
 - Live Demo: Check out [demo](https://distilesm-2-amp.streamlit.app/) here
 
-## Model comparision
+## 📊 Model comparision
 |Name|Parameter| Pretraining data | Protein sequence | Size (MB) |
 |:---:|:---:| :---: | :-:| :-:|
 |esm2_t6_8M_UR50D| 8M |UR50D | 65M | 7.51M |
 |distilESM-2-AMP| 4M| UniRef50 | 8M | 3.81M |
 
-## Installation & Usage
+## ⚒️ Installation & Usage
 ```bash
 pip install -U transformers torch
 ```
