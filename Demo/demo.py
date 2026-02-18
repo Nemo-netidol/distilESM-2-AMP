@@ -1,9 +1,8 @@
 import streamlit as st
 import pandas as pd
-from transformers import AutoTokenizer, AutoModelForSequenceClassification, AutoConfig
+from transformers import AutoTokenizer, AutoModelForSequenceClassification
 import torch
 import re
-import transformers
 
 model_path = "NakornB/distilESM-2-AMP"
 
@@ -81,7 +80,7 @@ with st.sidebar:
         """
         - **Architecture**: ESM-2 (Distillation to 3 layers)
         - **Dataset**: UniRef50
-        - **Accuracy**: 95.7%
+        - **Accuracy**: 96.90%
         """
     )
 
@@ -112,7 +111,7 @@ with tab1:
 
 with tab2:
     st.subheader("Batch Analysis via CSV")
-    st.markdown("Upload a CSV file with column `sequence`.")
+    st.markdown("Upload a CSV file with column `seq` that contains peptide sequences.")
     uploaded_file = st.file_uploader("Choose a CSV file", type=['csv'])
 
     if uploaded_file is not None:
